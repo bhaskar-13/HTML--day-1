@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All input element </title>
+    <link rel="stylesheet" href="inputall.css">
+</head>
+<body>
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name">
+    <label for="score">Score</label>
+    <input type="number" name="score" id="score">
+    <label for="date"> Date of Birth</label>
+    <input type="date" name="date" id="date">
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email">
+    <label for="password"> password</label>
+    <input type="password" name="password" id="password">
+    <label for="relocate">Willing To relocate</label>
+    <input type="checkbox" name="will" id="relocate">
+    <label for="gender">Gender</label>
+    <input type="radio" name="gender" id="gender1">
+    <label for="gender1">Male</label>
+    <input type="radio" name="gender" id="gender2">
+    <label for="gender2">Female/label>
+    <input type="reset" value="reset">
+    <input type="submit" value="submit">
+    <label for="url">Enter your Url</label>
+    <input type="url" name="Url" id="url">
+
+</body>
+</html>
